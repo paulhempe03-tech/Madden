@@ -22,16 +22,19 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install pandas requests
-      - name: Assemble exactly 1000 targets
+      - name: Restore exact first 1000 baseline targets
         run: |
-          printf '\n' >> historical-import/targets_first1000.csv
-          tail -n +2 historical-import/targets_first1000_tail.csv >> historical-import/targets_first1000.csv
+          base64 -d historical-import/targets_first1000_exact.csv.gz.b64 | gzip -dc > historical-import/targets_first1000.csv
           python - <<'PY'
           import pandas as pd
-          p = 'historical-import/targets_first1000.csv'
-          df = pd.read_csv(p)
-          print(f'assembled targets={len(df)}')
-          assert len(df) == 1000, f'expected 1000, got {len(df)}'
+          p='historical-import/targets_first1000.csv'
+          df=pd.read_csv(p)
+          print(f'targets={len(df)} unique_ids={df.player_id.nunique()} unique_names={df.player_name.nunique()}')
+          assert len(df)==1000
+          assert df.player_id.nunique()==1000
+          assert df.player_name.nunique()==1000
+          assert int(df.iloc[0].player_id)==21586
+          assert int(df.iloc[-1].player_id)==21688
           PY
       - name: Build historical data for first 1000 players
         run: python historical-import/build_first1000.py
@@ -45,6 +48,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No generated changes to commit.'
           else
-            git commit -m 'Generate and review historical stats for first 1000 players'
+            git commit -m 'Regenerate historical stats for exact first 1000 players'
             git push
           fi
