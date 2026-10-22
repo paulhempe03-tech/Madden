@@ -43,11 +43,7 @@ jobs:
           PY
       - name: Build historical data for first 1000 players
         run: python historical-import/build_first1000.py
-      - name: Review unresolved mappings and zero-history players
-        run: python historical-import/review_first1000.py
-      - name: Resolve candidate metadata
-        run: python historical-import/candidate_metadata.py
-      - name: Apply reviewed mapping repairs and final hard audit
+      - name: Apply verified GSIS overrides and final hard audit
         run: python historical-import/repair_first1000.py
       - name: Upload final first1000 artifact
         uses: actions/upload-artifact@v4
