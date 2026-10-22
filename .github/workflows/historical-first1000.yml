@@ -24,7 +24,7 @@ jobs:
         run: pip install pandas requests
       - name: Restore exact first 1000 baseline targets
         run: |
-          base64 -d historical-import/targets_first1000_exact.csv.gz.b64 | gzip -dc > historical-import/targets_first1000.csv
+          cat historical-import/targets_first1000_exact.part1 historical-import/targets_first1000_exact.part2 historical-import/targets_first1000_exact.part3 | base64 -d | gzip -dc > historical-import/targets_first1000.csv
           python - <<'PY'
           import pandas as pd
           p='historical-import/targets_first1000.csv'
