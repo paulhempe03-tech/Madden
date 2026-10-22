@@ -24,17 +24,22 @@ jobs:
         run: pip install pandas requests
       - name: Restore exact first 1000 baseline targets
         run: |
-          cat historical-import/targets_first1000_exact.part1 historical-import/targets_first1000_exact.part2 historical-import/targets_first1000_exact.part3 | base64 -d | gzip -dc > historical-import/targets_first1000.csv
           python - <<'PY'
           import pandas as pd
-          p='historical-import/targets_first1000.csv'
-          df=pd.read_csv(p)
+          from pathlib import Path
+          root=Path('historical-import')
+          parts=[pd.read_csv(root/'exact'/f'targets_part_{i:03d}.csv') for i in range(1,6)]
+          df=pd.concat(parts,ignore_index=True)
+          p=root/'targets_first1000.csv'
+          df.to_csv(p,index=False)
           print(f'targets={len(df)} unique_ids={df.player_id.nunique()} unique_names={df.player_name.nunique()}')
           assert len(df)==1000
           assert df.player_id.nunique()==1000
           assert df.player_name.nunique()==1000
           assert int(df.iloc[0].player_id)==21586
+          assert df.iloc[0].player_name=="Ja'Marr Chase"
           assert int(df.iloc[-1].player_id)==21688
+          assert df.iloc[-1].player_name=='Payton Turner'
           PY
       - name: Build historical data for first 1000 players
         run: python historical-import/build_first1000.py
