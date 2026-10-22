@@ -24,8 +24,15 @@ jobs:
         run: pip install pandas requests
       - name: Assemble exactly 1000 targets
         run: |
+          printf '\n' >> historical-import/targets_first1000.csv
           tail -n +2 historical-import/targets_first1000_tail.csv >> historical-import/targets_first1000.csv
-          test "$(($(wc -l < historical-import/targets_first1000.csv) - 1))" -eq 1000
+          python - <<'PY'
+          import pandas as pd
+          p = 'historical-import/targets_first1000.csv'
+          df = pd.read_csv(p)
+          print(f'assembled targets={len(df)}')
+          assert len(df) == 1000, f'expected 1000, got {len(df)}'
+          PY
       - name: Build historical data for first 1000 players
         run: python historical-import/build_first1000.py
       - name: Commit generated outputs
