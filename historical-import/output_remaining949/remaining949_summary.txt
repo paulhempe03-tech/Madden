@@ -1,0 +1,10 @@
+targets=949
+unique_ids=949
+unique_names=949
+mapped=920
+mapping_review=16
+mapping_missing=13
+historical_rows=2612
+bulk_ready=712
+no_history_or_gap=208
+blocks=95
