@@ -6,6 +6,8 @@ on:
     paths:
       - 'historical-import/build_remaining949.py'
       - 'historical-import/review_remaining949.py'
+      - 'historical-import/repair_remaining949.py'
+      - 'historical-import/mapping_overrides_remaining949.csv'
       - 'historical-import/targets_remaining949_exact.csv.gz.b64'
       - '.github/workflows/historical-remaining949.yml'
   workflow_dispatch:
@@ -42,20 +44,20 @@ jobs:
           PY
       - name: Build historical data for remaining 949 players
         run: python historical-import/build_remaining949.py
-      - name: Review unresolved mappings and zero-history players
-        run: python historical-import/review_remaining949.py
-      - name: Upload initial remaining949 audit
+      - name: Apply verified GSIS overrides and final hard audit
+        run: python historical-import/repair_remaining949.py
+      - name: Upload final remaining949 artifact
         uses: actions/upload-artifact@v4
         with:
-          name: historical-remaining949-initial
+          name: historical-remaining949-final
           path: |
-            historical-import/output_remaining949/remaining949_summary.txt
-            historical-import/output_remaining949/remaining949_player_mapping.csv
-            historical-import/output_remaining949/remaining949_audit.csv
-            historical-import/output_remaining949/unresolved_mapping_candidates.csv
-            historical-import/output_remaining949/no_history_review.csv
+            historical-import/output_remaining949/remaining949_historical_stats_final.csv
+            historical-import/output_remaining949/remaining949_player_mapping_final.csv
+            historical-import/output_remaining949/remaining949_audit_final.csv
+            historical-import/output_remaining949/remaining949_final_summary.txt
             historical-import/output_remaining949/download_audit.csv
-      - name: Commit generated initial outputs
+            historical-import/output_remaining949/blocks_final/
+      - name: Commit generated final outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -63,6 +65,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No generated changes to commit.'
           else
-            git commit -m 'Generate initial historical stats for remaining 949 players'
+            git commit -m 'Finalize historical stats for remaining 949 players'
             git push
           fi
