@@ -1,7 +1,7 @@
 targets=1000
 unique_ids=1000
 unique_names=1000
-historical_rows=4973
+historical_rows=4976
 final_ready=910
 manual_block001_preserved=10
 no_pre2026_history=80

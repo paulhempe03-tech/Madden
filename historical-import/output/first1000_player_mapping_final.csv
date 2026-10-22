@@ -39,7 +39,7 @@ rank,internal_player_id,player_name,position,gsis_id,mapping_status,note
 38,13081,Quenton Nelson,LG,00-0034342,AUTO_EXACT,
 39,22702,Will Anderson Jr,LEDG,00-0039108,AUTO_EXACT,
 40,22145,Aidan Hutchinson,LEDG,00-0037236,AUTO_EXACT,
-41,17676,Chris Jones,DT,00-0030106,AUTO_NAME_POSITION,
+41,17676,Chris Jones,DT,00-0032762,OVERRIDE_VERIFIED,verified current-player identity override
 42,20369,Chris Lindstrom,RG,00-0035630,AUTO_NAME_POSITION,
 43,13101,Denzel Ward,CB,00-0034856,AUTO_EXACT,
 44,17557,Derrick Henry,HB,00-0032764,AUTO_EXACT,
