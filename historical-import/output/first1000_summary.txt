@@ -1,9 +1,9 @@
 targets=1000
-mapped=964
-mapping_review=25
-mapping_missing=11
-historical_rows=4174
-bulk_ready=863
-no_history_or_gap=91
+mapped=967
+mapping_review=21
+mapping_missing=12
+historical_rows=4822
+bulk_ready=878
+no_history_or_gap=79
 manual_block001_preserved=10
 blocks=100
