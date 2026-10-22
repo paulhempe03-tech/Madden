@@ -35,6 +35,8 @@ jobs:
           PY
       - name: Build historical data for first 1000 players
         run: python historical-import/build_first1000.py
+      - name: Review unresolved mappings and zero-history players
+        run: python historical-import/review_first1000.py
       - name: Commit generated outputs
         run: |
           git config user.name 'github-actions[bot]'
@@ -43,6 +45,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No generated changes to commit.'
           else
-            git commit -m 'Generate historical stats for first 1000 players'
+            git commit -m 'Generate and review historical stats for first 1000 players'
             git push
           fi
