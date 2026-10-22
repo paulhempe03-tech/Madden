@@ -1,0 +1,181 @@
+internal_player_id,player_name,app_position,mapping_status,candidate_rank,similarity,candidate_name,candidate_position,candidate_gsis_id
+10698,Cam Heyward,DT,MISSING,1,0.8333,Cameron Heyward,DE,00-0027969
+10698,Cam Heyward,DT,MISSING,2,0.8235,Cam Ward,QB,00-0040676
+10698,Cam Heyward,DT,MISSING,3,0.8182,Craig Heyward,RB,00-0007363
+10698,Cam Heyward,DT,MISSING,4,0.7619,Adam Hayward,OLB,00-0025569
+10698,Cam Heyward,DT,MISSING,5,0.7273,Casey Hayward,CB,00-0029261
+21017,Antoine Winfield Jr,FS,REVIEW,1,1.0,Antoine Winfield,CB,00-0018093
+21017,Antoine Winfield Jr,FS,REVIEW,2,1.0,Antoine Winfield Jr.,SAF,00-0036411
+21017,Antoine Winfield Jr,FS,REVIEW,3,0.7143,Anthony Fields,DB,FIE447237
+21017,Antoine Winfield Jr,FS,REVIEW,4,0.7143,Antoine Wesley,WR,00-0035126
+21017,Antoine Winfield Jr,FS,REVIEW,5,0.6923,Ian Howfield,K,00-0007829
+2527,Leonard Williams,DT,REVIEW,1,1.0,Leonard Williams,DE,00-0031933
+2527,Leonard Williams,DT,REVIEW,2,1.0,Leonard Williams,RB,WIL426492
+2527,Leonard Williams,DT,REVIEW,3,0.9286,Leonard Willis,WR,WIL613890
+2527,Leonard Williams,DT,REVIEW,4,0.8889,Leon Williams,LB,00-0024325
+2527,Leonard Williams,DT,REVIEW,5,0.8667,Bernard Williams,OT,00-0017724
+20419,Zach Allen,DT,REVIEW,1,1.0,Zach Allen,G,ALL656106
+20419,Zach Allen,DT,REVIEW,2,1.0,Zach Allen,DE,00-0035248
+20419,Zach Allen,DT,REVIEW,3,0.7778,Jack Allen,C,00-0032872
+20419,Zach Allen,DT,REVIEW,4,0.75,CJ Allen,LB,00-0041039
+20419,Zach Allen,DT,REVIEW,5,0.7368,Asher Allen,CB,00-0027058
+22938,Byron Young,LEDG,REVIEW,1,1.0,Byron Young,DT,00-0038978
+22938,Byron Young,LEDG,REVIEW,2,1.0,Byron Young,LB,00-0039137
+22938,Byron Young,LEDG,REVIEW,3,0.8571,Tyrone Young,WR,YOU611982
+22938,Byron Young,LEDG,REVIEW,4,0.8,Brian Young,DT,00-0019674
+22938,Byron Young,LEDG,REVIEW,5,0.7778,Ben Young,TE,YOU116568
+21921,Ernest Jones IV,MIKE,REVIEW,1,1.0,Ernest Jones,LB,00-0008745
+21921,Ernest Jones IV,MIKE,REVIEW,2,1.0,Ernest Jones,LB,00-0036994
+21921,Ernest Jones IV,MIKE,REVIEW,3,0.8571,Ernie Jones,FS,JON292336
+21921,Ernest Jones IV,MIKE,REVIEW,4,0.8571,Ernie Jones,WR,JON298980
+21921,Ernest Jones IV,MIKE,REVIEW,5,0.8,D'Ernest Johnson,RB,00-0035628
+21267,Brandon Jones,FS,REVIEW,1,1.0,Brandon Jones,WR,00-0023531
+21267,Brandon Jones,FS,REVIEW,2,1.0,Brandon Jones,DB,00-0029991
+21267,Brandon Jones,FS,REVIEW,3,1.0,Brandon Jones,SAF,00-0036221
+21267,Brandon Jones,FS,REVIEW,4,0.88,Brandon Joiner,LB,00-0028917
+21267,Brandon Jones,FS,REVIEW,5,0.8696,Braden Jones,TE,00-0024675
+22709,Antonio Johnson,SS,REVIEW,1,1.0,Antonio Johnson,DT,00-0025539
+22709,Antonio Johnson,SS,REVIEW,2,1.0,Antonio Johnson,OT,00-0032177
+22709,Antonio Johnson,SS,REVIEW,3,1.0,Antonio Johnson,SAF,00-0038596
+22709,Antonio Johnson,SS,REVIEW,4,0.8571,Anthony Johnson,RB,00-0008430
+22709,Antonio Johnson,SS,REVIEW,5,0.8571,Anthony Johnson,DE,00-0030864
+21291,Robert Hunt,RG,REVIEW,1,1.0,Robert Hunt,G,00-0007937
+21291,Robert Hunt,RG,REVIEW,2,1.0,Robert Hunt,G,00-0036325
+21291,Robert Hunt,RG,REVIEW,3,0.8235,Rob Hunt,C,00-0023598
+21291,Robert Hunt,RG,REVIEW,4,0.8,Robert Holt,WR,HOL768552
+21291,Robert Hunt,RG,REVIEW,5,0.7619,Robert Burns,RB,00-0038419
+14643,Marvin Harrison Jr,WR,REVIEW,1,1.0,Marvin Harrison,WR,00-0007024
+14643,Marvin Harrison Jr,WR,REVIEW,2,1.0,Marvin Harrison Jr.,WR,00-0039849
+14643,Marvin Harrison Jr,WR,REVIEW,3,0.9286,Martin Harrison,DE,00-0007023
+14643,Marvin Harrison Jr,WR,REVIEW,4,0.8571,Jarvis Harrison,G,00-0031593
+14643,Marvin Harrison Jr,WR,REVIEW,5,0.8462,Mark Harrison,WR,00-0030439
+21231,Mike Danna,LEDG,MISSING,1,0.8235,Mike Gann,DE,00-0005737
+21231,Mike Danna,LEDG,MISSING,2,0.7619,Michael Danna,LB,00-0036378
+21231,Mike Danna,LEDG,MISSING,3,0.7368,Mike Dawson,DT,DAW674843
+21231,Mike Danna,LEDG,MISSING,4,0.7368,Mike Dennis,CB,DEN383340
+21231,Mike Danna,LEDG,MISSING,5,0.7368,Mike Jordan,CB,00-0032676
+15200,Mike Green,REDG,REVIEW,1,1.0,Mike Green,RB,00-0019576
+15200,Mike Green,REDG,REVIEW,2,1.0,Mike Green,LB,00-0040722
+15200,Mike Green,REDG,REVIEW,3,1.0,Mike Green,ILB,GRE324564
+15200,Mike Green,REDG,REVIEW,4,0.9474,Mike Greene,DT,00-0037627
+15200,Mike Green,REDG,REVIEW,5,0.8235,Mike Reed,RB,REE349450
+14695,Olu Fashanu,LT,MISSING,1,0.7692,Olumuyiwa Fashanu,OT,00-0039790
+14695,Olu Fashanu,LT,MISSING,2,0.6,Lucas Niang,OT,00-0036367
+14695,Olu Fashanu,LT,MISSING,3,0.5882,Lou Rash,DB,RAS166116
+14695,Olu Fashanu,LT,MISSING,4,0.5714,Joe Callahan,QB,00-0032630
+14695,Olu Fashanu,LT,MISSING,5,0.5714,Troy Fautanu,OT,00-0039871
+21674,Derrick Barnes,SAM,REVIEW,1,1.0,Derrick Barnes,LB,00-0000773
+21674,Derrick Barnes,SAM,REVIEW,2,1.0,Derrick Barnes,LB,00-0036964
+21674,Derrick Barnes,SAM,REVIEW,3,0.8148,Derrick Burgess,DE,00-0020504
+21674,Derrick Barnes,SAM,REVIEW,4,0.8148,Derrick Gardner,DB,GAR164545
+21674,Derrick Barnes,SAM,REVIEW,5,0.8,Derrick Brown,DT,00-0036220
+21615,Joshua Palmer,WR,MISSING,1,0.9091,Josh Palmer,WR,00-0036988
+21615,Joshua Palmer,WR,MISSING,2,0.8333,Joshua Farmer,DT,00-0040171
+21615,Joshua Palmer,WR,MISSING,3,0.7826,Joshua Perry,LB,00-0032894
+21615,Joshua Palmer,WR,MISSING,4,0.7692,Jonathan Palmer,G,00-0025722
+21615,Joshua Palmer,WR,MISSING,5,0.75,Jordan Palmer,QB,00-0025592
+13083,Orlando Brown Jr,LT,REVIEW,1,1.0,Orlando Brown,OT,00-0002012
+13083,Orlando Brown Jr,LT,REVIEW,2,1.0,Orlando Brown,OT,00-0034752
+13083,Orlando Brown Jr,LT,REVIEW,3,0.7826,Orlando Bobo,G,00-0001397
+13083,Orlando Brown Jr,LT,REVIEW,4,0.7826,Gordon Brown,RB,BRO455124
+13083,Orlando Brown Jr,LT,REVIEW,5,0.7826,Jordan Brown,DB,00-0035305
+22642,Tony Adams,SS,REVIEW,1,1.0,Tony Adams,QB,ADA110744
+22642,Tony Adams,SS,REVIEW,2,1.0,Tony Adams,G,00-0034849
+22642,Tony Adams,SS,REVIEW,3,1.0,Tony Adams,SAF,00-0037155
+22642,Tony Adams,SS,REVIEW,4,0.8571,Anthony Adams,DT,00-0022085
+22642,Tony Adams,SS,REVIEW,5,0.8,Johnny Adams,CB,00-0030226
+15364,Andres Borregales,K,MISSING,1,0.8667,Andy Borregales,K,00-0040200
+15364,Andres Borregales,K,MISSING,2,0.7333,Jose Borregales,K,00-0036757
+15364,Andres Borregales,K,MISSING,3,0.6923,Andre O'Neal,LB,00-0019323
+15364,Andres Borregales,K,MISSING,4,0.6897,Andrew Vorhees,G,00-0038383
+15364,Andres Borregales,K,MISSING,5,0.6667,Andre Holmes,WR,00-0028263
+21459,Asante Samuel Jr,CB,REVIEW,1,1.0,Asante Samuel,CB,00-0021956
+21459,Asante Samuel Jr,CB,REVIEW,2,1.0,Asante Samuel Jr.,CB,00-0036617
+21459,Asante Samuel Jr,CB,REVIEW,3,0.6667,Stanford Samuels III,CB,00-0035970
+21459,Asante Samuel Jr,CB,REVIEW,4,0.6667,Stanford Samuels,DB,SAM722874
+21459,Asante Samuel Jr,CB,REVIEW,5,0.6667,Terry Samuels,RB,00-0014302
+22347,Chigoziem Okonkwo,TE,MISSING,1,0.8148,Chig Okonkwo,TE,00-0037809
+22347,Chigoziem Okonkwo,TE,MISSING,2,0.6207,Ogbo Okoronkwo,DE,00-0034807
+22347,Chigoziem Okonkwo,TE,MISSING,3,0.5806,Chigozie Anusiem,DB,00-0039676
+22347,Chigoziem Okonkwo,TE,MISSING,4,0.5714,Chris Ziemann,OT,00-0019050
+22347,Chigoziem Okonkwo,TE,MISSING,5,0.5385,Chidi Okeke,OT,00-0034940
+4739,Elijah Ponder,REDG,REVIEW,1,1.0,Elijah Ponder,LB,00-0036761
+4739,Elijah Ponder,REDG,REVIEW,2,1.0,Elijah Ponder,LB,00-0040574
+4739,Elijah Ponder,REDG,REVIEW,3,0.7826,Elijah Jones,CB,00-0039823
+4739,Elijah Ponder,REDG,REVIEW,4,0.75,Alijah Holder,SAF,00-0034948
+4739,Elijah Ponder,REDG,REVIEW,5,0.75,Elijah Molden,CB,00-0036992
+13294,Folorunso Fatukasi,DT,MISSING,1,0.7333,Foley Fatukasi,DT,00-0034275
+13294,Folorunso Fatukasi,DT,MISSING,2,0.7273,Olakunle Fatukasi,ILB,00-0037481
+13294,Folorunso Fatukasi,DT,MISSING,3,0.5714,Lou Benfatti,DE,00-0001082
+13294,Folorunso Fatukasi,DT,MISSING,4,0.5385,Fou Fonoti,OT,00-0030766
+13294,Folorunso Fatukasi,DT,MISSING,5,0.5161,Bronson Kaufusi,TE,00-0033117
+15175,JT Tuimoloau,REDG,MISSING,1,0.7407,Jaylahn Tuimoloau,DE,00-0040744
+15175,JT Tuimoloau,REDG,MISSING,2,0.6429,Stevie Tu'ikolovatu,DT,00-0033971
+15175,JT Tuimoloau,REDG,MISSING,3,0.5833,Tuli Tuipulotu,LB,00-0039111
+15175,JT Tuimoloau,REDG,MISSING,4,0.5714,Tim Colston,DE,00-0003332
+15175,JT Tuimoloau,REDG,MISSING,5,0.5714,Jimbo Elrod,LB,ELR415291
+14767,Kris Jenkins Jr,DT,REVIEW,1,1.0,Kris Jenkins,NT,00-0020380
+14767,Kris Jenkins Jr,DT,REVIEW,2,1.0,Kris Jenkins,DT,00-0039908
+14767,Kris Jenkins Jr,DT,REVIEW,3,0.8333,Jarvis Jenkins,DT,00-0027979
+14767,Kris Jenkins Jr,DT,REVIEW,4,0.8,Janoris Jenkins,CB,00-0029681
+14767,Kris Jenkins Jr,DT,REVIEW,5,0.8,J.R. Jenkins,K,00-0020685
+21697,Michael Carter II,SS,REVIEW,1,1.0,Michael Carter II,CB,00-0036501
+21697,Michael Carter II,SS,REVIEW,2,1.0,Michael Carter,RB,00-0036924
+21697,Michael Carter II,SS,REVIEW,3,1.0,Michael Carter,NT,CAR716523
+21697,Michael Carter II,SS,REVIEW,4,0.8462,Michael Barber,WR,00-0000739
+21697,Michael Carter II,SS,REVIEW,5,0.8462,Michael Harper,WR,HAR283998
+14866,Tyler Davis,DT,REVIEW,1,1.0,Tyler Davis,TE,00-0036250
+14866,Tyler Davis,DT,REVIEW,2,1.0,Tyler Davis,DE,00-0039749
+14866,Tyler Davis,DT,REVIEW,3,0.8696,Tyeler Davison,DT,00-0031947
+14866,Tyler Davis,DT,REVIEW,4,0.8421,Kyle Davis,C,DAV516258
+14866,Tyler Davis,DT,REVIEW,5,0.8,Tyree Davis,WR,00-0004061
+23032,Jaylon Jones,CB,REVIEW,1,1.0,Jaylon Jones,DB,00-0037106
+23032,Jaylon Jones,CB,REVIEW,2,1.0,Jaylon Jones,DB,00-0038407
+23032,Jaylon Jones,CB,REVIEW,3,0.9091,Jayson Jones,DT,00-0040105
+23032,Jaylon Jones,CB,REVIEW,4,0.8696,Braylon Jones,G,00-0036770
+23032,Jaylon Jones,CB,REVIEW,5,0.8571,Jason Jones,DE,00-0026194
+23062,JuJu Brents,CB,MISSING,1,0.8182,Julius Brents,CB,00-0039156
+23062,JuJu Brents,CB,MISSING,2,0.7059,K.J. Brent,WR,00-0032926
+23062,JuJu Brents,CB,MISSING,3,0.6667,J.J. Birden,WR,00-0001259
+23062,JuJu Brents,CB,MISSING,4,0.6316,Brent Moss,RB,00-0011750
+23062,JuJu Brents,CB,MISSING,5,0.6316,Josh Brent,DT,00-0027852
+15061,Kyle Williams,WR,REVIEW,1,1.0,Kyle Williams,DT,00-0024348
+15061,Kyle Williams,WR,REVIEW,2,1.0,Kyle Williams,OT,00-0025780
+15061,Kyle Williams,WR,REVIEW,3,1.0,Kyle Williams,WR,00-0027608
+15061,Kyle Williams,WR,REVIEW,4,1.0,Kyle Williams,WR,00-0040131
+15061,Kyle Williams,WR,REVIEW,5,0.88,Kyren Williams,RB,00-0037840
+15175,JT Tuimoloau,REDG,MISSING,1,0.7407,Jaylahn Tuimoloau,DE,00-0040744
+15175,JT Tuimoloau,REDG,MISSING,2,0.6429,Stevie Tu'ikolovatu,DT,00-0033971
+15175,JT Tuimoloau,REDG,MISSING,3,0.5833,Tuli Tuipulotu,LB,00-0039111
+15175,JT Tuimoloau,REDG,MISSING,4,0.5714,Tim Colston,DE,00-0003332
+15175,JT Tuimoloau,REDG,MISSING,5,0.5714,Jimbo Elrod,LB,ELR415291
+14767,Kris Jenkins Jr,DT,REVIEW,1,1.0,Kris Jenkins,NT,00-0020380
+14767,Kris Jenkins Jr,DT,REVIEW,2,1.0,Kris Jenkins,DT,00-0039908
+14767,Kris Jenkins Jr,DT,REVIEW,3,0.8333,Jarvis Jenkins,DT,00-0027979
+14767,Kris Jenkins Jr,DT,REVIEW,4,0.8,Janoris Jenkins,CB,00-0029681
+14767,Kris Jenkins Jr,DT,REVIEW,5,0.8,J.R. Jenkins,K,00-0020685
+21697,Michael Carter II,SS,REVIEW,1,1.0,Michael Carter II,CB,00-0036501
+21697,Michael Carter II,SS,REVIEW,2,1.0,Michael Carter,RB,00-0036924
+21697,Michael Carter II,SS,REVIEW,3,1.0,Michael Carter,NT,CAR716523
+21697,Michael Carter II,SS,REVIEW,4,0.8462,Michael Barber,WR,00-0000739
+21697,Michael Carter II,SS,REVIEW,5,0.8462,Michael Harper,WR,HAR283998
+14866,Tyler Davis,DT,REVIEW,1,1.0,Tyler Davis,TE,00-0036250
+14866,Tyler Davis,DT,REVIEW,2,1.0,Tyler Davis,DE,00-0039749
+14866,Tyler Davis,DT,REVIEW,3,0.8696,Tyeler Davison,DT,00-0031947
+14866,Tyler Davis,DT,REVIEW,4,0.8421,Kyle Davis,C,DAV516258
+14866,Tyler Davis,DT,REVIEW,5,0.8,Tyree Davis,WR,00-0004061
+23032,Jaylon Jones,CB,REVIEW,1,1.0,Jaylon Jones,DB,00-0037106
+23032,Jaylon Jones,CB,REVIEW,2,1.0,Jaylon Jones,DB,00-0038407
+23032,Jaylon Jones,CB,REVIEW,3,0.9091,Jayson Jones,DT,00-0040105
+23032,Jaylon Jones,CB,REVIEW,4,0.8696,Braylon Jones,G,00-0036770
+23032,Jaylon Jones,CB,REVIEW,5,0.8571,Jason Jones,DE,00-0026194
+23062,JuJu Brents,CB,MISSING,1,0.8182,Julius Brents,CB,00-0039156
+23062,JuJu Brents,CB,MISSING,2,0.7059,K.J. Brent,WR,00-0032926
+23062,JuJu Brents,CB,MISSING,3,0.6667,J.J. Birden,WR,00-0001259
+23062,JuJu Brents,CB,MISSING,4,0.6316,Brent Moss,RB,00-0011750
+23062,JuJu Brents,CB,MISSING,5,0.6316,Josh Brent,DT,00-0027852
+15061,Kyle Williams,WR,REVIEW,1,1.0,Kyle Williams,DT,00-0024348
+15061,Kyle Williams,WR,REVIEW,2,1.0,Kyle Williams,OT,00-0025780
+15061,Kyle Williams,WR,REVIEW,3,1.0,Kyle Williams,WR,00-0027608
+15061,Kyle Williams,WR,REVIEW,4,1.0,Kyle Williams,WR,00-0040131
+15061,Kyle Williams,WR,REVIEW,5,0.88,Kyren Williams,RB,00-0037840
