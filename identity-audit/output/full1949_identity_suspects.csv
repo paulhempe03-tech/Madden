@@ -1,0 +1,33 @@
+rank,internal_player_id,player_name,app_position,mapped_gsis_id,mapping_status_before,identity_status,reason,name_candidate_count,compatible_candidate_count,mapped_score,mapped_positions,mapped_first_season,mapped_latest_season,mapped_last_roster_year,mapped_team_2026,mapped_team_2025,best_candidate_gsis,best_candidate_names,best_candidate_positions,best_candidate_first_season,best_candidate_latest_season,best_candidate_last_roster_year,best_candidate_team_2026,best_candidate_team_2025,best_candidate_score
+34,10698,Cam Heyward,DT,00-0027969,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DE;DL,2011,2026,2026,PIT,PIT,,,,,,,,,0
+41,17676,Chris Jones,DT,00-0030106,AUTO_NAME_POSITION,FAIL_NAMESAKE_RECENCY,same-name compatible candidate is materially newer (2026 vs 2018),7,2,160,DL;DT,2013,2017,2018,,,00-0032762,C.Jones;Chris;Chris Jones,DE;DL,2016.0,2026.0,2026.0,KC,KC,225
+175,22938,Byron Young,LEDG,00-0039137,OVERRIDE_VERIFIED,REVIEW_NAMESAKE,multiple close same-name/same-position candidates; score gap=0,2,2,225,LB,2023,2026,2026,LA,LA,00-0039137,B.Young;Byron;Byron Young,LB,2023.0,2026.0,2026.0,LA,LA,225
+430,14968,Dru Phillips,CB,00-0039821,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DB,2024,2026,2026,NYG,NYG,,,,,,,,,0
+488,22263,Dax Hill,CB,00-0037743,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DB,2022,2026,2026,CIN,CIN,,,,,,,,,0
+539,16217,Vega Ioane,RG,00-0040866,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,G;OL,2026,2026,2026,BAL,,,,,,,,,,0
+595,21231,Mike Danna,LEDG,00-0036378,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DL;LB,2020,2026,2026,BUF,KC,,,,,,,,,0
+699,14695,Olu Fashanu,LT,00-0039790,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,OL;OT,2024,2026,2026,NYJ,NYJ,,,,,,,,,0
+766,21615,Joshua Palmer,WR,00-0036988,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,WR,2021,2026,2026,BUF,BUF,,,,,,,,,0
+820,15364,Andres Borregales,K,00-0040200,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,K;SPEC,2025,2026,2026,NE,NE,,,,,,,,,0
+837,22347,Chigoziem Okonkwo,TE,00-0037809,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,TE,2022,2026,2026,WAS,TEN,,,,,,,,,0
+855,13294,Folorunso Fatukasi,DT,00-0034275,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DL;DT,2018,2026,2026,LV,HOU,,,,,,,,,0
+872,15175,JT Tuimoloau,REDG,00-0040744,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DE;DL,2025,2026,2026,IND,IND,,,,,,,,,0
+966,23032,Jaylon Jones,CB,00-0038407,OVERRIDE_VERIFIED,REVIEW_NAMESAKE,multiple close same-name/same-position candidates; score gap=0,2,2,225,DB,2023,2026,2026,TEN,IND,00-0038407,J.Jones;Jaylon;Jaylon Jones,DB,2023.0,2026.0,2026.0,TEN,IND,225
+978,23062,JuJu Brents,CB,00-0039156,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,CB;DB,2023,2026,2026,MIA,MIA,,,,,,,,,0
+1164,15244,Jordan Phillips,DT,00-0040175,OVERRIDE_VERIFIED,REVIEW_NAMESAKE,multiple close same-name/same-position candidates; score gap=10,2,2,225,DL;DT,2025,2026,2026,MIA,MIA,00-0040175,J.Phillips;Jordan;Jordan Phillips,DL;DT,2025.0,2026.0,2026.0,MIA,MIA,225
+1178,16387,Kyle Louis,SS,00-0041527,AUTO_EXACT,REVIEW_POSITION,mapped identity position is incompatible and no clearly compatible same-name candidate was found,1,0,165,LB,2026,2026,2026,MIA,,00-0041527,K.Louis;Kyle;Kyle Louis,LB,2026.0,2026.0,2026.0,MIA,,165
+1296,21889,T.J. Slaton Jr,DT,00-0036642,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DL;DT,2021,2026,2026,CIN,CIN,,,,,,,,,0
+1351,22530,Jaylon Jones,CB,00-0037106,OVERRIDE_VERIFIED,REVIEW_NAMESAKE,multiple plausible same-name identities; best candidate score gap=0,2,2,225,DB,2022,2026,2026,JAX,CHI,00-0038407,J.Jones;Jaylon;Jaylon Jones,DB,2023.0,2026.0,2026.0,TEN,IND,225
+1374,16212,Nick Singleton,HB,00-0040886,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,RB,2026,2026,2026,TEN,,,,,,,,,,0
+1501,1251,Chris Roland-Wallace,FS,00-0039324,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,CB;DB,2024,2026,2026,KC,KC,,,,,,,,,0
+1598,22482,Drew Ogletree,TE,00-0037292,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,TE,2022,2026,2026,IND,IND,,,,,,,,,0
+1627,15263,Kiko Mauigoa,MIKE,00-0040186,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,LB,2025,2026,2026,NYJ,NYJ,,,,,,,,,0
+1646,22886,Olusegun Oluwatimi,C,00-0038593,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,C;OL,2023,2026,2026,SEA,SEA,,,,,,,,,0
+1666,22168,Zach Carter,DT,00-0037804,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DL;DT,2022,2026,2026,ARI,ARI,,,,,,,,,0
+1716,10179,Matt Hibner,TE,00-0040879,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,TE,2026,2026,2026,BAL,,,,,,,,,,0
+1821,4752,C.J. Okoye,DT,00-0039176,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DL;DT,2023,2026,2026,NYG,BAL,,,,,,,,,0
+1851,22981,Robert Beal Jr,REDG,00-0038603,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,DE;DL,2023,2026,2026,MIA,SF,,,,,,,,,0
+1868,4665,Benjamin Yurosek,TE,00-0040509,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,TE,2025,2026,2026,MIN,MIN,,,,,,,,,0
+1912,20842,Matt Orzech,LS,00-0035118,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,LS;SPEC,2019,2026,2026,GB,GB,,,,,,,,,0
+1929,4699,Mike Reid,FS,00-0040293,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,2,1,125,DB;SAF,2025,2026,2026,NO,CAR,REI360284,Mike Reid,DB;SAF,1993.0,1994.0,,,,160
+1946,21930,William Sherman,C,00-0036535,OVERRIDE_VERIFIED,FAIL_NAME_MISMATCH,mapped GSIS player names do not normalize to target name,0,0,125,G;OL,2021,2026,2026,NO,NO,,,,,,,,,0

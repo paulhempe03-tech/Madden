@@ -1,0 +1,16 @@
+targets=1949
+unique_internal_ids=1949
+pass=1917
+suspects_total=32
+clear_failures=27
+manual_reviews=5
+suggested_overrides=2
+roster_download_errors=0
+status_FAIL_NAMESAKE_RECENCY=1
+status_FAIL_NAME_MISMATCH=26
+status_PASS=1917
+status_REVIEW_NAMESAKE=4
+status_REVIEW_POSITION=1
+chris_jones_mapped_gsis=00-0030106
+chris_jones_identity_status=FAIL_NAMESAKE_RECENCY
+chris_jones_best_candidate_gsis=00-0032762
