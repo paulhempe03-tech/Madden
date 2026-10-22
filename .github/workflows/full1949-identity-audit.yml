@@ -6,6 +6,7 @@ on:
     paths:
       - 'identity-audit/audit_identities.py'
       - 'identity-audit/adjudicate_audit.py'
+      - 'identity-audit/build_identity_approved_full1949.py'
       - 'identity-audit/verified_exceptions.csv'
       - '.github/workflows/full1949-identity-audit.yml'
   workflow_dispatch:
@@ -28,10 +29,14 @@ jobs:
         run: python identity-audit/audit_identities.py
       - name: Adjudicate verified aliases and exceptions
         run: python identity-audit/adjudicate_audit.py
+      - name: Build identity-approved full 1949 dataset
+        run: python identity-audit/build_identity_approved_full1949.py
       - name: Show raw summary
         run: cat identity-audit/output/full1949_identity_summary.txt
-      - name: Show final summary
+      - name: Show final identity summary
         run: cat identity-audit/output/full1949_identity_final_summary.txt
+      - name: Show identity-approved dataset summary
+        run: cat identity-audit/output/full1949_identity_approved_dataset_summary.txt
       - name: Upload audit artifact
         uses: actions/upload-artifact@v4
         with:
@@ -45,6 +50,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No audit output changes to commit.'
           else
-            git commit -m 'Finalize full 1949 player identity audit results'
+            git commit -m 'Build identity-approved full 1949 history dataset'
             git push
           fi
