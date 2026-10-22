@@ -1,0 +1,15 @@
+targets=1949
+unique_internal_ids=1949
+historical_rows=7675
+players_with_pre2026_history=1657
+no_pre2026_history=292
+source_gap=0
+unresolved_mapping=0
+identity_unresolved=0
+duplicate_internal_player_year_team_rows=0
+display_names_shared_by_multiple_internal_ids=3
+chris_jones_rows=10
+chris_jones_year_min=2016
+chris_jones_year_max=2025
+chris_jones_teams=KC
+chris_jones_pre2016_rows=0
