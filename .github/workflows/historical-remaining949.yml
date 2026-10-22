@@ -1,0 +1,68 @@
+name: Historical remaining 949 import
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'historical-import/build_remaining949.py'
+      - 'historical-import/review_remaining949.py'
+      - 'historical-import/targets_remaining949_exact.csv.gz.b64'
+      - '.github/workflows/historical-remaining949.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pandas requests
+      - name: Restore exact remaining 949 targets
+        run: |
+          base64 -d historical-import/targets_remaining949_exact.csv.gz.b64 | gzip -dc > historical-import/targets_remaining949.csv
+          python - <<'PY'
+          import pandas as pd
+          p='historical-import/targets_remaining949.csv'
+          df=pd.read_csv(p)
+          print(f'targets={len(df)} unique_ids={df.player_id.nunique()} unique_names={df.player_name.nunique()}')
+          assert len(df)==949
+          assert df.player_id.nunique()==949
+          assert df.player_name.nunique()==949
+          assert int(df.iloc[0].player_id)==15313
+          assert df.iloc[0].player_name=='Quincy Riley'
+          assert int(df.iloc[-1].player_id)==21841
+          assert df.iloc[-1].player_name=='Ryan McCollum'
+          PY
+      - name: Build historical data for remaining 949 players
+        run: python historical-import/build_remaining949.py
+      - name: Review unresolved mappings and zero-history players
+        run: python historical-import/review_remaining949.py
+      - name: Upload initial remaining949 audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-remaining949-initial
+          path: |
+            historical-import/output_remaining949/remaining949_summary.txt
+            historical-import/output_remaining949/remaining949_player_mapping.csv
+            historical-import/output_remaining949/remaining949_audit.csv
+            historical-import/output_remaining949/unresolved_mapping_candidates.csv
+            historical-import/output_remaining949/no_history_review.csv
+            historical-import/output_remaining949/download_audit.csv
+      - name: Commit generated initial outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add historical-import/output_remaining949
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit.'
+          else
+            git commit -m 'Generate initial historical stats for remaining 949 players'
+            git push
+          fi
