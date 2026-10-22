@@ -1,0 +1,10 @@
+targets=949
+unique_ids=949
+unique_names=949
+historical_rows=2699
+final_ready=737
+no_pre2026_history=212
+source_gap=0
+unresolved_mapping=0
+duplicate_player_year_team_rows=0
+blocks=95
