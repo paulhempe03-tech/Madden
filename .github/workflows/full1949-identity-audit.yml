@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'identity-audit/audit_identities.py'
+      - 'identity-audit/adjudicate_audit.py'
+      - 'identity-audit/verified_exceptions.csv'
       - '.github/workflows/full1949-identity-audit.yml'
   workflow_dispatch:
 
@@ -24,8 +26,12 @@ jobs:
         run: pip install pandas requests
       - name: Run league-wide identity audit
         run: python identity-audit/audit_identities.py
-      - name: Show summary
+      - name: Adjudicate verified aliases and exceptions
+        run: python identity-audit/adjudicate_audit.py
+      - name: Show raw summary
         run: cat identity-audit/output/full1949_identity_summary.txt
+      - name: Show final summary
+        run: cat identity-audit/output/full1949_identity_final_summary.txt
       - name: Upload audit artifact
         uses: actions/upload-artifact@v4
         with:
@@ -39,6 +45,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No audit output changes to commit.'
           else
-            git commit -m 'Add full 1949 player identity audit results'
+            git commit -m 'Finalize full 1949 player identity audit results'
             git push
           fi
